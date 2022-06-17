@@ -1,5 +1,5 @@
 import {HttpException, HttpService, Injectable, NotFoundException } from '@nestjs/common'
-const myKey = '98H4V8ZIQJGTPVTFGWH7MIHWJRF1YEFYJZ'
+const myKey = 'key'
 
 @Injectable()
 export class TransactionsService {
