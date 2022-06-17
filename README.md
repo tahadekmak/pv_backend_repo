@@ -24,10 +24,10 @@ $ npm run start:prod
 # To use the 3 available APIs, provide your EtherScan API key in owners.service & transactions.service
 
 # GET all owners (parameters: Contract Address, tokenId)
-http://localhost:3000/owners/Owners/APIKEY/tockenId
+http://localhost:3000/owners/APIKEY/tockenId
 
 # GET all transactions (parameters: Contract Address, tokenId)
-http://localhost:3000/owners/transactions/APIKEY/tockenId
+http://localhost:3000/transactions/APIKEY/tockenId
 
 # GET the wallet address of the user who minted a token (paramters: Contract Address, tokenId)
 http://localhost:3000/owners/mintOwner/APIKEY/tockenId
